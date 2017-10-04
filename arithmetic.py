@@ -47,3 +47,15 @@ def mod(num1, num2):
     """Return the remainder of num1 / num2."""
 
     return num1 % num2
+
+def add_mult(num1, num2, num3):
+    """Adds num1 to num2, multiplies sum by num3
+    Returns product"""
+
+    return (num1 + num2) * num3
+
+
+def add_cubes(num1, num2):
+    """adds cubes of num1 and num2, returns sum"""
+
+    return (num1 ** 3) + (num2 ** 3) #we know we don't need parenthesis

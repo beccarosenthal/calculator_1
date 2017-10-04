@@ -22,7 +22,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
 
-    return float(num1)/float(num2)
+    return num1 / num2
 
 
 def square(num1):
